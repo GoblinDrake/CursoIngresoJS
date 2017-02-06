@@ -5,7 +5,7 @@ function Mostrar()
 	num=document.getElementById("edad").value 
 	console.log(num)
 	num=parseInt(num)
-	if(num == 15){
+	if(num == 18){
 				alert("niña Bonita")}
 		
 

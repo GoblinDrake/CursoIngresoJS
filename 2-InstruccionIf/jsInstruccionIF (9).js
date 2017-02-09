@@ -4,8 +4,8 @@ function Mostrar()
 	var num
 	
 	
-	(Math.random)*(10-1)+1=num
-	num=parseInt(num)
+	
+	num=parseInt(Math.random()*(11-1))+1
 	alert(num)
 
 

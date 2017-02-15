@@ -19,14 +19,17 @@ function CalcularPrecio ()
 
  precio=parseInt(precio)
 //a)
+ 
  if(cantidad >= 6){
 
  	var descuento = precio*0.50
  	var precioDescuento=(precio)-descuento
  	document.getElementById("precioDescuento").value=precioDescuento
  	
- 	               }
+ 	                  }
+ 	    
 //b)
+else                                                                
  if( cantidad ==5 && marca== "ArgentinaLuz" ){
 
  	var descuento = precio*0.40
@@ -34,26 +37,52 @@ function CalcularPrecio ()
  	document.getElementById("precioDescuento").value=precioDescuento
 
  	                                           }
+ 	  
+ else 
  if(cantidad==5 && marca != "ArgentinaLuz"){
 
  	var descuento = precio*0.30
 
  	var precioDescuento=(precio)-descuento
  	document.getElementById("precioDescuento").value=precioDescuento
-                                              }	  
-//c)
-  if (cantidad ==4 && marca== "ArgentinaLuz" || marca == "FelipeLamparas" ){
+                                              }
+  //c)     
+ else  
+ if (cantidad ==4 && marca== "ArgentinaLuz" || marca == "FelipeLamparas" ){
 
  	var descuento = precio*0.25
  	var precioDescuento=(precio)-descuento
  	 	document.getElementById("precioDescuento").value=precioDescuento
  	                                                                       }
- 	if (cantidad ==4 && marca!= "ArgentinaLuz" || marca != "FelipeLamparas" ){
+ 	                                                                        
+  else 
+  if (cantidad ==4 && marca!= "ArgentinaLuz" || marca != "FelipeLamparas" ){
 
  	var descuento = precio*0.20
  	var precioDescuento=(precio)-descuento
  	 	document.getElementById("precioDescuento").value=precioDescuento
- 	                                                                       }                                                                       
+ 	                                                                       }     
+
+else
+	if(cantidad ==3 && "ArgentinaLuz" == marca){
+     var descuento = precio*0.15
+     var precioDescuento = (precio)-descuento
+     document.getElementById("precioDescuento").value=precioDescuento
+     
+	}
+else
+	if(cantidad ==3 && "FelipeLamparas"== marca){
+     var descuento = precio*0.10
+     var precioDescuento = (precio)-descuento
+     document.getElementById("precioDescuento").value=precioDescuento
+  
+	  }
+
+else
+	if(cantidad ==3 && "")
+
+
+
 
 
                                                                                      
@@ -61,4 +90,6 @@ function CalcularPrecio ()
 
 
 
-}
+ }
+	
+

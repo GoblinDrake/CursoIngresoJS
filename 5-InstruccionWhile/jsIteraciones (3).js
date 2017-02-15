@@ -2,20 +2,21 @@ function Mostrar()
 {
 
 var clave = prompt("ingrese el número clave.");
-var claveCorrecta="utn750"
-while(clave!=claveCorrecta ){
 
-	prompt("clave incorrecta")
+while(clave!="utn750" ){
+ 
+ var clave = prompt("ingrese el número clave correcto.");
+
+ 
+	
      
-        if(clave==claveCorrecta){
-
-          alert("bienvenido")
+      
                                 }                    
 
-
-                             }
+  }
                          
 
 
 
-}//FIN DE LA FUNCIÓN
+
+//FIN DE LA FUNCIÓN

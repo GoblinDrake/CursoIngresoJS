@@ -6,10 +6,8 @@ function Mostrar()
 	num=0	
 
 	while(num<10){
-
-		
-		num=num+1
-		alert(num)
+		console.log(num)
+		++num
 
 
 	}

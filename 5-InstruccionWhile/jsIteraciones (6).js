@@ -5,8 +5,7 @@ function Mostrar()
 	var acumulador=0;
     var num=0;
     var numing;
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
+
      
 while (num < 5){
 	num++
